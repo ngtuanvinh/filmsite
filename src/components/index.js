@@ -1,0 +1,10 @@
+export { default as Main } from "./Main";
+export { default as MovieDetail } from "./MovieDetail";
+export { default as Navbar } from "./Navbar";
+export { default as SearchPage } from "./SearchPage";
+export { default as PersonDetail } from "./PersonDetail";
+export { default as ResponsiveSidebar } from "./ResponsiveSidebar";
+export { default as SidebarContent } from "./SidebarContent";
+export { default as MoviesTypesProvider } from "./MoviesTypesContext";
+export { default as Loader } from "./Spinner";
+export { default as MovieCard } from "./MovieCard";

@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: inherit;
+}
+
+.container {
+  height: inherit;
+  display: flex;
+}
+
+
+.main { 
+  flex-grow: 2;
+  padding: 2em;
+}
+
+.main-div {
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:200px;
+  background-color: #1976D2;
+  
+}
+
+@media (min-width: 600px) {
+  .toolbar :nth-child(3) { 
+     order: 4;
+  }
+  .toolbar :nth-child(4) { 
+     order: 3
+  }
+}
+
+@media (max-width: 599.5px) {
+  .toolbar { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+  }
+}
+
+@media (430px <= width <= 599.5px) {
+  .navbar-btn {
+    margin-right: 100px !important;
+  }
+}
+
+.logo { 
+  width: 162.39px;
+  height: 54.77px;
+}
+
+.logo__darkmode {
+  filter: hue-rotate(146deg)
+}
+
+.sidebar {
+  min-height: 100vh;
+}
+
+.sidebar-icon {
+  padding: 3px 0;
+}
+
+.darkTheme {
+  color: #fff;
+}
+
+.movieDetail-btn {
+  font-size: 20px !important;
+}
+
+.icon__darkmode {
+  filter: invert(1);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbdada;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7e7e7e;
+  border-radius: 10px;
+}
+
+
+
+
